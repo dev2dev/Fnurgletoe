@@ -1,0 +1,7 @@
+v1.3 (2010-08-01): Open source version
+
+v1.2 (2009-07-04): New icon, small fixes
+
+v1.1 (2008-09-02): Added themes and new graphics
+
+v1.0 (2008-08-12): First version for iPhone

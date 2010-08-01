@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* FnurgletoeAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* FnurgletoeAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		289233AE0DB2D0DB0083E9F9 /* IntroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233A90DB2D0DB0083E9F9 /* IntroViewController.m */; };
+		289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AB0DB2D0DB0083E9F9 /* RootViewController.m */; };
+		289233B00DB2D0DB0083E9F9 /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 289233AD0DB2D0DB0083E9F9 /* HelpViewController.m */; };
+		363B45680E33A559003F7899 /* SoundEffect.m in Sources */ = {isa = PBXBuildFile; fileRef = 363B45670E33A559003F7899 /* SoundEffect.m */; };
+		363B458D0E33A663003F7899 /* Make Move.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363B458C0E33A663003F7899 /* Make Move.wav */; };
+		363B45A10E33A885003F7899 /* Computer Wins.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363B459E0E33A885003F7899 /* Computer Wins.wav */; };
+		363B45A20E33A885003F7899 /* Error.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363B459F0E33A885003F7899 /* Error.wav */; };
+		363B45A30E33A885003F7899 /* Player Wins.wav in Resources */ = {isa = PBXBuildFile; fileRef = 363B45A00E33A885003F7899 /* Player Wins.wav */; };
+		36912EE40E33406100AD53CF /* BoardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 36912EE10E33406100AD53CF /* BoardView.m */; };
+		36912EE50E33406100AD53CF /* GameModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 36912EE30E33406100AD53CF /* GameModel.m */; };
+		36912EF70E33412300AD53CF /* GameView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36912EF30E33412300AD53CF /* GameView.xib */; };
+		36912EF80E33412300AD53CF /* HelpView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36912EF40E33412300AD53CF /* HelpView.xib */; };
+		36912EF90E33412300AD53CF /* IntroView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36912EF50E33412300AD53CF /* IntroView.xib */; };
+		36912EFA0E33412300AD53CF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36912EF60E33412300AD53CF /* MainWindow.xib */; };
+		36912F140E33429600AD53CF /* Intro.png in Resources */ = {isa = PBXBuildFile; fileRef = 36912F130E33429600AD53CF /* Intro.png */; };
+		36AAC9AC0E31E14100FA2C47 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36AAC9AB0E31E14100FA2C47 /* GameViewController.m */; };
+		36AACA490E31E90400FA2C47 /* Background.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACA460E31E90400FA2C47 /* Background.png */; };
+		36AACA4B0E31E90400FA2C47 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACA480E31E90400FA2C47 /* Icon.png */; };
+		36AACAB60E32049C00FA2C47 /* Help.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACAB50E32049C00FA2C47 /* Help.png */; };
+		36AACABE0E3206A100FA2C47 /* Cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACAB90E3206A100FA2C47 /* Cross.png */; };
+		36AACABF0E3206A100FA2C47 /* Full.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACABA0E3206A100FA2C47 /* Full.png */; };
+		36AACAC00E3206A100FA2C47 /* Stroke.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACABB0E3206A100FA2C47 /* Stroke.png */; };
+		36AACBD80E321E6600FA2C47 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 36AACBD70E321E6600FA2C47 /* Default.png */; };
+		7B2DB8C60E48E39300EC5038 /* GameOverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B2DB8C50E48E39300EC5038 /* GameOverViewController.m */; };
+		7BA11E910E48C1DC0073CB5E /* GameOverView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7BA11E900E48C1DC0073CB5E /* GameOverView.xib */; };
+		7BA11FBB0E48DA110073CB5E /* Game Over.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA11FBA0E48DA110073CB5E /* Game Over.png */; };
+		7BA3F8530E6C67A900258245 /* Cross Win2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA3F8500E6C67A900258245 /* Cross Win2.png */; };
+		7BA3F8540E6C67A900258245 /* Full Win2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA3F8510E6C67A900258245 /* Full Win2.png */; };
+		7BA3F8550E6C67A900258245 /* Stroke Win2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BA3F8520E6C67A900258245 /* Stroke Win2.png */; };
+		7BB15D8D0E6DBC070045FD40 /* Cross Win3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB15D870E6DBC070045FD40 /* Cross Win3.png */; };
+		7BB15D8E0E6DBC070045FD40 /* Cross3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB15D880E6DBC070045FD40 /* Cross3.png */; };
+		7BB15D8F0E6DBC070045FD40 /* Full Win3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB15D890E6DBC070045FD40 /* Full Win3.png */; };
+		7BB15D900E6DBC070045FD40 /* Full3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB15D8A0E6DBC070045FD40 /* Full3.png */; };
+		7BB15D910E6DBC070045FD40 /* Stroke Win3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB15D8B0E6DBC070045FD40 /* Stroke Win3.png */; };
+		7BB15D920E6DBC070045FD40 /* Stroke3.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB15D8C0E6DBC070045FD40 /* Stroke3.png */; };
+		7BB167DF0E45E98D0067973F /* Arrow Bottom Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB167DB0E45E98D0067973F /* Arrow Bottom Left.png */; };
+		7BB167E00E45E98D0067973F /* Arrow Bottom Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB167DC0E45E98D0067973F /* Arrow Bottom Right.png */; };
+		7BB167E10E45E98D0067973F /* Arrow Top Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB167DD0E45E98D0067973F /* Arrow Top Left.png */; };
+		7BB167E20E45E98D0067973F /* Arrow Top Right.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB167DE0E45E98D0067973F /* Arrow Top Right.png */; };
+		7BB168100E45EDC50067973F /* Bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB1680E0E45EDC50067973F /* Bottom.png */; };
+		7BB168110E45EDC50067973F /* Top.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BB1680F0E45EDC50067973F /* Top.png */; };
+		7BC0AAAE0E6ACF90006E1197 /* Cross2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC0AAAB0E6ACF90006E1197 /* Cross2.png */; };
+		7BC0AAAF0E6ACF90006E1197 /* Full2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC0AAAC0E6ACF90006E1197 /* Full2.png */; };
+		7BC0AAB00E6ACF90006E1197 /* Stroke2.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BC0AAAD0E6ACF90006E1197 /* Stroke2.png */; };
+		7BC62E890E478A9200EB11F0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC62E860E478A9200EB11F0 /* AudioToolbox.framework */; };
+		7BC62E8A0E478A9200EB11F0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC62E870E478A9200EB11F0 /* CoreGraphics.framework */; };
+		7BC62E8B0E478A9200EB11F0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BC62E880E478A9200EB11F0 /* QuartzCore.framework */; };
+		7BD7D1760E445DE700C53E61 /* Cross Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD7D1700E445DE700C53E61 /* Cross Win.png */; };
+		7BD7D1770E445DE700C53E61 /* Full Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD7D1710E445DE700C53E61 /* Full Win.png */; };
+		7BD7D17B0E445DE700C53E61 /* Stroke Win.png in Resources */ = {isa = PBXBuildFile; fileRef = 7BD7D1750E445DE700C53E61 /* Stroke Win.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* FnurgletoeAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FnurgletoeAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* FnurgletoeAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FnurgletoeAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Fnurgletoe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fnurgletoe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		289233A80DB2D0DB0083E9F9 /* IntroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = IntroViewController.h; path = Classes/IntroViewController.h; sourceTree = "<group>"; };
+		289233A90DB2D0DB0083E9F9 /* IntroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = IntroViewController.m; path = Classes/IntroViewController.m; sourceTree = "<group>"; };
+		289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		289233AC0DB2D0DB0083E9F9 /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HelpViewController.h; path = Classes/HelpViewController.h; sourceTree = "<group>"; };
+		289233AD0DB2D0DB0083E9F9 /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HelpViewController.m; path = Classes/HelpViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Fnurgletoe_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fnurgletoe_Prefix.pch; sourceTree = "<group>"; };
+		363B45660E33A559003F7899 /* SoundEffect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SoundEffect.h; path = Classes/SoundEffect.h; sourceTree = "<group>"; };
+		363B45670E33A559003F7899 /* SoundEffect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SoundEffect.m; path = Classes/SoundEffect.m; sourceTree = "<group>"; };
+		363B458C0E33A663003F7899 /* Make Move.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Make Move.wav"; path = "Sounds/Make Move.wav"; sourceTree = "<group>"; };
+		363B459E0E33A885003F7899 /* Computer Wins.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Computer Wins.wav"; path = "Sounds/Computer Wins.wav"; sourceTree = "<group>"; };
+		363B459F0E33A885003F7899 /* Error.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Error.wav; path = Sounds/Error.wav; sourceTree = "<group>"; };
+		363B45A00E33A885003F7899 /* Player Wins.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = "Player Wins.wav"; path = "Sounds/Player Wins.wav"; sourceTree = "<group>"; };
+		36912EE00E33406100AD53CF /* BoardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BoardView.h; path = Classes/BoardView.h; sourceTree = "<group>"; };
+		36912EE10E33406100AD53CF /* BoardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BoardView.m; path = Classes/BoardView.m; sourceTree = "<group>"; };
+		36912EE20E33406100AD53CF /* GameModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameModel.h; path = Classes/GameModel.h; sourceTree = "<group>"; };
+		36912EE30E33406100AD53CF /* GameModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameModel.m; path = Classes/GameModel.m; sourceTree = "<group>"; };
+		36912EF30E33412300AD53CF /* GameView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameView.xib; path = Resources/GameView.xib; sourceTree = "<group>"; };
+		36912EF40E33412300AD53CF /* HelpView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = HelpView.xib; path = Resources/HelpView.xib; sourceTree = "<group>"; };
+		36912EF50E33412300AD53CF /* IntroView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = IntroView.xib; path = Resources/IntroView.xib; sourceTree = "<group>"; };
+		36912EF60E33412300AD53CF /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		36912F130E33429600AD53CF /* Intro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Intro.png; sourceTree = "<group>"; };
+		36AAC9AA0E31E14100FA2C47 /* GameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameViewController.h; path = Classes/GameViewController.h; sourceTree = "<group>"; };
+		36AAC9AB0E31E14100FA2C47 /* GameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameViewController.m; path = Classes/GameViewController.m; sourceTree = "<group>"; };
+		36AACA460E31E90400FA2C47 /* Background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Background.png; sourceTree = "<group>"; };
+		36AACA480E31E90400FA2C47 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		36AACAB50E32049C00FA2C47 /* Help.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Help.png; sourceTree = "<group>"; };
+		36AACAB90E3206A100FA2C47 /* Cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross.png; sourceTree = "<group>"; };
+		36AACABA0E3206A100FA2C47 /* Full.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Full.png; sourceTree = "<group>"; };
+		36AACABB0E3206A100FA2C47 /* Stroke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stroke.png; sourceTree = "<group>"; };
+		36AACBD70E321E6600FA2C47 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		7B2DB8C40E48E39300EC5038 /* GameOverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GameOverViewController.h; path = Classes/GameOverViewController.h; sourceTree = "<group>"; };
+		7B2DB8C50E48E39300EC5038 /* GameOverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GameOverViewController.m; path = Classes/GameOverViewController.m; sourceTree = "<group>"; };
+		7BA11E900E48C1DC0073CB5E /* GameOverView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = GameOverView.xib; path = Resources/GameOverView.xib; sourceTree = "<group>"; };
+		7BA11FBA0E48DA110073CB5E /* Game Over.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Game Over.png"; sourceTree = "<group>"; };
+		7BA3F8500E6C67A900258245 /* Cross Win2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross Win2.png"; sourceTree = "<group>"; };
+		7BA3F8510E6C67A900258245 /* Full Win2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Win2.png"; sourceTree = "<group>"; };
+		7BA3F8520E6C67A900258245 /* Stroke Win2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stroke Win2.png"; sourceTree = "<group>"; };
+		7BB15D870E6DBC070045FD40 /* Cross Win3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross Win3.png"; sourceTree = "<group>"; };
+		7BB15D880E6DBC070045FD40 /* Cross3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross3.png; sourceTree = "<group>"; };
+		7BB15D890E6DBC070045FD40 /* Full Win3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Win3.png"; sourceTree = "<group>"; };
+		7BB15D8A0E6DBC070045FD40 /* Full3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Full3.png; sourceTree = "<group>"; };
+		7BB15D8B0E6DBC070045FD40 /* Stroke Win3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stroke Win3.png"; sourceTree = "<group>"; };
+		7BB15D8C0E6DBC070045FD40 /* Stroke3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stroke3.png; sourceTree = "<group>"; };
+		7BB167DB0E45E98D0067973F /* Arrow Bottom Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow Bottom Left.png"; sourceTree = "<group>"; };
+		7BB167DC0E45E98D0067973F /* Arrow Bottom Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow Bottom Right.png"; sourceTree = "<group>"; };
+		7BB167DD0E45E98D0067973F /* Arrow Top Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow Top Left.png"; sourceTree = "<group>"; };
+		7BB167DE0E45E98D0067973F /* Arrow Top Right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Arrow Top Right.png"; sourceTree = "<group>"; };
+		7BB1680E0E45EDC50067973F /* Bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Bottom.png; sourceTree = "<group>"; };
+		7BB1680F0E45EDC50067973F /* Top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Top.png; sourceTree = "<group>"; };
+		7BC0AAAB0E6ACF90006E1197 /* Cross2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Cross2.png; sourceTree = "<group>"; };
+		7BC0AAAC0E6ACF90006E1197 /* Full2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Full2.png; sourceTree = "<group>"; };
+		7BC0AAAD0E6ACF90006E1197 /* Stroke2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stroke2.png; sourceTree = "<group>"; };
+		7BC62E860E478A9200EB11F0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		7BC62E870E478A9200EB11F0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7BC62E880E478A9200EB11F0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		7BD7D1700E445DE700C53E61 /* Cross Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Cross Win.png"; sourceTree = "<group>"; };
+		7BD7D1710E445DE700C53E61 /* Full Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Full Win.png"; sourceTree = "<group>"; };
+		7BD7D1750E445DE700C53E61 /* Stroke Win.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Stroke Win.png"; sourceTree = "<group>"; };
+		7BDB4D7A1205F45E00A941A2 /* CHANGELOG.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = CHANGELOG.txt; sourceTree = "<group>"; };
+		7BDB4D7B1205F45E00A941A2 /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		7BDB4D7C1205F45E00A941A2 /* README.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.txt; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				7BC62E890E478A9200EB11F0 /* AudioToolbox.framework in Frameworks */,
+				7BC62E8A0E478A9200EB11F0 /* CoreGraphics.framework in Frameworks */,
+				7BC62E8B0E478A9200EB11F0 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Application Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				289233AA0DB2D0DB0083E9F9 /* RootViewController.h */,
+				289233AB0DB2D0DB0083E9F9 /* RootViewController.m */,
+				1D3623240D0F684500981E51 /* FnurgletoeAppDelegate.h */,
+				1D3623250D0F684500981E51 /* FnurgletoeAppDelegate.m */,
+			);
+			name = "Application Controllers";
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Fnurgletoe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		281C6CD70DB2D82200F60ACC /* Help Screen */ = {
+			isa = PBXGroup;
+			children = (
+				289233AC0DB2D0DB0083E9F9 /* HelpViewController.h */,
+				289233AD0DB2D0DB0083E9F9 /* HelpViewController.m */,
+			);
+			name = "Help Screen";
+			sourceTree = "<group>";
+		};
+		289233A00DB2D0730083E9F9 /* Intro Screen */ = {
+			isa = PBXGroup;
+			children = (
+				289233A80DB2D0DB0083E9F9 /* IntroViewController.h */,
+				289233A90DB2D0DB0083E9F9 /* IntroViewController.m */,
+			);
+			name = "Intro Screen";
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				7BDB4D7C1205F45E00A941A2 /* README.txt */,
+				7BDB4D7A1205F45E00A941A2 /* CHANGELOG.txt */,
+				7BDB4D7B1205F45E00A941A2 /* LICENSE.txt */,
+				36AAC9AF0E31E1A300FA2C47 /* Game Screen */,
+				289233A00DB2D0730083E9F9 /* Intro Screen */,
+				281C6CD70DB2D82200F60ACC /* Help Screen */,
+				080E96DDFE201D6D7F000001 /* Application Controllers */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Fnurgletoe_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				363B457C0E33A5F5003F7899 /* Sounds */,
+				36AACA450E31E90400FA2C47 /* Images */,
+				36912EF30E33412300AD53CF /* GameView.xib */,
+				7BA11E900E48C1DC0073CB5E /* GameOverView.xib */,
+				36912EF40E33412300AD53CF /* HelpView.xib */,
+				36912EF50E33412300AD53CF /* IntroView.xib */,
+				36912EF60E33412300AD53CF /* MainWindow.xib */,
+				8D1107310486CEB800E47090 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BC62E860E478A9200EB11F0 /* AudioToolbox.framework */,
+				7BC62E870E478A9200EB11F0 /* CoreGraphics.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				7BC62E880E478A9200EB11F0 /* QuartzCore.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363B457C0E33A5F5003F7899 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				363B459E0E33A885003F7899 /* Computer Wins.wav */,
+				363B459F0E33A885003F7899 /* Error.wav */,
+				363B458C0E33A663003F7899 /* Make Move.wav */,
+				363B45A00E33A885003F7899 /* Player Wins.wav */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		36AAC9AF0E31E1A300FA2C47 /* Game Screen */ = {
+			isa = PBXGroup;
+			children = (
+				36912EE00E33406100AD53CF /* BoardView.h */,
+				36912EE10E33406100AD53CF /* BoardView.m */,
+				36912EE20E33406100AD53CF /* GameModel.h */,
+				36912EE30E33406100AD53CF /* GameModel.m */,
+				7B2DB8C40E48E39300EC5038 /* GameOverViewController.h */,
+				7B2DB8C50E48E39300EC5038 /* GameOverViewController.m */,
+				36AAC9AA0E31E14100FA2C47 /* GameViewController.h */,
+				36AAC9AB0E31E14100FA2C47 /* GameViewController.m */,
+				363B45660E33A559003F7899 /* SoundEffect.h */,
+				363B45670E33A559003F7899 /* SoundEffect.m */,
+			);
+			name = "Game Screen";
+			sourceTree = "<group>";
+		};
+		36AACA450E31E90400FA2C47 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				7BB167DB0E45E98D0067973F /* Arrow Bottom Left.png */,
+				7BB167DC0E45E98D0067973F /* Arrow Bottom Right.png */,
+				7BB167DD0E45E98D0067973F /* Arrow Top Left.png */,
+				7BB167DE0E45E98D0067973F /* Arrow Top Right.png */,
+				36AACA460E31E90400FA2C47 /* Background.png */,
+				7BB1680E0E45EDC50067973F /* Bottom.png */,
+				7BD7D1700E445DE700C53E61 /* Cross Win.png */,
+				7BA3F8500E6C67A900258245 /* Cross Win2.png */,
+				7BB15D870E6DBC070045FD40 /* Cross Win3.png */,
+				36AACAB90E3206A100FA2C47 /* Cross.png */,
+				7BC0AAAB0E6ACF90006E1197 /* Cross2.png */,
+				7BB15D880E6DBC070045FD40 /* Cross3.png */,
+				36AACBD70E321E6600FA2C47 /* Default.png */,
+				7BD7D1710E445DE700C53E61 /* Full Win.png */,
+				7BA3F8510E6C67A900258245 /* Full Win2.png */,
+				7BB15D890E6DBC070045FD40 /* Full Win3.png */,
+				36AACABA0E3206A100FA2C47 /* Full.png */,
+				7BC0AAAC0E6ACF90006E1197 /* Full2.png */,
+				7BB15D8A0E6DBC070045FD40 /* Full3.png */,
+				7BA11FBA0E48DA110073CB5E /* Game Over.png */,
+				36AACAB50E32049C00FA2C47 /* Help.png */,
+				36AACA480E31E90400FA2C47 /* Icon.png */,
+				36912F130E33429600AD53CF /* Intro.png */,
+				7BD7D1750E445DE700C53E61 /* Stroke Win.png */,
+				7BA3F8520E6C67A900258245 /* Stroke Win2.png */,
+				7BB15D8B0E6DBC070045FD40 /* Stroke Win3.png */,
+				36AACABB0E3206A100FA2C47 /* Stroke.png */,
+				7BC0AAAD0E6ACF90006E1197 /* Stroke2.png */,
+				7BB15D8C0E6DBC070045FD40 /* Stroke3.png */,
+				7BB1680F0E45EDC50067973F /* Top.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Fnurgletoe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fnurgletoe" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fnurgletoe;
+			productName = Fnurgletoe;
+			productReference = 1D6058910D05DD3D006BFB54 /* Fnurgletoe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fnurgletoe" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+				en,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Fnurgletoe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36AACA490E31E90400FA2C47 /* Background.png in Resources */,
+				36AACA4B0E31E90400FA2C47 /* Icon.png in Resources */,
+				36AACAB60E32049C00FA2C47 /* Help.png in Resources */,
+				36AACABE0E3206A100FA2C47 /* Cross.png in Resources */,
+				36AACABF0E3206A100FA2C47 /* Full.png in Resources */,
+				36AACAC00E3206A100FA2C47 /* Stroke.png in Resources */,
+				36AACBD80E321E6600FA2C47 /* Default.png in Resources */,
+				36912EF70E33412300AD53CF /* GameView.xib in Resources */,
+				36912EF80E33412300AD53CF /* HelpView.xib in Resources */,
+				36912EF90E33412300AD53CF /* IntroView.xib in Resources */,
+				36912EFA0E33412300AD53CF /* MainWindow.xib in Resources */,
+				36912F140E33429600AD53CF /* Intro.png in Resources */,
+				363B458D0E33A663003F7899 /* Make Move.wav in Resources */,
+				363B45A10E33A885003F7899 /* Computer Wins.wav in Resources */,
+				363B45A20E33A885003F7899 /* Error.wav in Resources */,
+				363B45A30E33A885003F7899 /* Player Wins.wav in Resources */,
+				7BD7D1760E445DE700C53E61 /* Cross Win.png in Resources */,
+				7BD7D1770E445DE700C53E61 /* Full Win.png in Resources */,
+				7BD7D17B0E445DE700C53E61 /* Stroke Win.png in Resources */,
+				7BB167DF0E45E98D0067973F /* Arrow Bottom Left.png in Resources */,
+				7BB167E00E45E98D0067973F /* Arrow Bottom Right.png in Resources */,
+				7BB167E10E45E98D0067973F /* Arrow Top Left.png in Resources */,
+				7BB167E20E45E98D0067973F /* Arrow Top Right.png in Resources */,
+				7BB168100E45EDC50067973F /* Bottom.png in Resources */,
+				7BB168110E45EDC50067973F /* Top.png in Resources */,
+				7BA11E910E48C1DC0073CB5E /* GameOverView.xib in Resources */,
+				7BA11FBB0E48DA110073CB5E /* Game Over.png in Resources */,
+				7BC0AAAE0E6ACF90006E1197 /* Cross2.png in Resources */,
+				7BC0AAAF0E6ACF90006E1197 /* Full2.png in Resources */,
+				7BC0AAB00E6ACF90006E1197 /* Stroke2.png in Resources */,
+				7BA3F8530E6C67A900258245 /* Cross Win2.png in Resources */,
+				7BA3F8540E6C67A900258245 /* Full Win2.png in Resources */,
+				7BA3F8550E6C67A900258245 /* Stroke Win2.png in Resources */,
+				7BB15D8D0E6DBC070045FD40 /* Cross Win3.png in Resources */,
+				7BB15D8E0E6DBC070045FD40 /* Cross3.png in Resources */,
+				7BB15D8F0E6DBC070045FD40 /* Full Win3.png in Resources */,
+				7BB15D900E6DBC070045FD40 /* Full3.png in Resources */,
+				7BB15D910E6DBC070045FD40 /* Stroke Win3.png in Resources */,
+				7BB15D920E6DBC070045FD40 /* Stroke3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* FnurgletoeAppDelegate.m in Sources */,
+				289233AE0DB2D0DB0083E9F9 /* IntroViewController.m in Sources */,
+				289233AF0DB2D0DB0083E9F9 /* RootViewController.m in Sources */,
+				289233B00DB2D0DB0083E9F9 /* HelpViewController.m in Sources */,
+				36AAC9AC0E31E14100FA2C47 /* GameViewController.m in Sources */,
+				36912EE40E33406100AD53CF /* BoardView.m in Sources */,
+				36912EE50E33406100AD53CF /* GameModel.m in Sources */,
+				363B45680E33A559003F7899 /* SoundEffect.m in Sources */,
+				7B2DB8C60E48E39300EC5038 /* GameOverViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fnurgletoe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = Fnurgletoe;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fnurgletoe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = Fnurgletoe;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Release;
+		};
+		7BC19FFC0FFF8F0900D58027 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Distribution;
+		};
+		7BC19FFD0FFF8F0900D58027 /* Distribution */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_ENTITLEMENTS = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Fnurgletoe_Prefix.pch;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				PRODUCT_NAME = Fnurgletoe;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+			};
+			name = Distribution;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				COPY_PHASE_STRIP = YES;
+				CURRENT_PROJECT_VERSION = 1.0;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				PRODUCT_NAME = Fnurgletoe;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+				STRIP_INSTALLED_PRODUCT = YES;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "Don't Code Sign";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Fnurgletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+				7BC19FFD0FFF8F0900D58027 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Fnurgletoe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+				7BC19FFC0FFF8F0900D58027 /* Distribution */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

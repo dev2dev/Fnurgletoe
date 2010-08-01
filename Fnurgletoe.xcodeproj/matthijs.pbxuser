@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	1D3623240D0F684500981E51 /* FnurgletoeAppDelegate.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{268, 0}";
+			sepNavVisRange = "{0, 317}";
+		};
+	};
+	1D3623250D0F684500981E51 /* FnurgletoeAppDelegate.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{1554, 0}";
+			sepNavVisRange = "{0, 1648}";
+		};
+	};
+	1D6058900D05DD3D006BFB54 /* Fnurgletoe */ = {
+		activeExec = 0;
+		executables = (
+			7B55B0640E3B593F004C7E9B /* Fnurgletoe */,
+		);
+	};
+	289233A80DB2D0DB0083E9F9 /* IntroViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{380, 0}";
+			sepNavVisRange = "{0, 1040}";
+			sepNavWindowFrame = "{{452, 164}, {669, 848}}";
+		};
+	};
+	289233A90DB2D0DB0083E9F9 /* IntroViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {712, 1430}}";
+			sepNavSelRange = "{1152, 0}";
+			sepNavVisRange = "{1122, 371}";
+			sepNavWindowFrame = "{{61, 96}, {682, 885}}";
+		};
+	};
+	289233AA0DB2D0DB0083E9F9 /* RootViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{712, 0}";
+			sepNavVisRange = "{0, 712}";
+		};
+	};
+	289233AB0DB2D0DB0083E9F9 /* RootViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {796, 1534}}";
+			sepNavSelRange = "{2881, 0}";
+			sepNavVisRange = "{1616, 1462}";
+		};
+	};
+	289233AC0DB2D0DB0083E9F9 /* HelpViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{291, 0}";
+			sepNavVisRange = "{0, 291}";
+		};
+	};
+	289233AD0DB2D0DB0083E9F9 /* HelpViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{447, 0}";
+			sepNavVisRange = "{0, 447}";
+			sepNavWindowFrame = "{{15, 138}, {682, 885}}";
+		};
+	};
+	29B97313FDCFA39411CA2CEA /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 7B55B0640E3B593F004C7E9B /* Fnurgletoe */;
+		activeSDKPreference = iphonesimulator4.0;
+		activeTarget = 1D6058900D05DD3D006BFB54 /* Fnurgletoe */;
+		addToTargets = (
+		);
+		breakpoints = (
+		);
+		codeSenseManager = 7B55B0780E3B594C004C7E9B /* Code sense */;
+		executables = (
+			7B55B0640E3B593F004C7E9B /* Fnurgletoe */,
+		);
+		perUserDictionary = {
+			"PBXConfiguration.PBXBreakpointsDataSource.v1:1CA23EDF0692099D00951B8B" = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBreakpointsDataSource_BreakpointID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					242,
+					20,
+					141,
+					141,
+					72,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBreakpointsDataSource_ActionID,
+					PBXBreakpointsDataSource_TypeID,
+					PBXBreakpointsDataSource_BreakpointID,
+					PBXBreakpointsDataSource_UseID,
+					PBXBreakpointsDataSource_LocationID,
+					PBXBreakpointsDataSource_ConditionID,
+					PBXBreakpointsDataSource_IgnoreCountID,
+					PBXBreakpointsDataSource_ContinueID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					340.58349609375,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXExecutablesDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXExecutablesDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					22,
+					300,
+					419,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXExecutablesDataSource_ActiveFlagID,
+					PBXExecutablesDataSource_NameID,
+					PBXExecutablesDataSource_CommentsID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = 1;
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					531,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.PBXSymbolsDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXSymbolsDataSource_SymbolNameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					16,
+					200,
+					50,
+					471,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXSymbolsDataSource_SymbolTypeIconID,
+					PBXSymbolsDataSource_SymbolNameID,
+					PBXSymbolsDataSource_SymbolTypeID,
+					PBXSymbolsDataSource_ReferenceNameID,
+				);
+			};
+			PBXConfiguration.PBXFileTableDataSource3.XCSCMDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					20,
+					507,
+					20,
+					48,
+					43,
+					43,
+					20,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_SCM_ColumnID,
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+					PBXFileDataSource_Target_ColumnID,
+				);
+			};
+			PBXConfiguration.PBXTargetDataSource.PBXTargetDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					20,
+					491,
+					60,
+					20,
+					48,
+					43,
+					43,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXFileDataSource_FiletypeID,
+					PBXFileDataSource_Filename_ColumnID,
+					PBXTargetDataSource_PrimaryAttribute,
+					PBXFileDataSource_Built_ColumnID,
+					PBXFileDataSource_ObjectSize_ColumnID,
+					PBXFileDataSource_Errors_ColumnID,
+					PBXFileDataSource_Warnings_ColumnID,
+				);
+			};
+			PBXPerProjectTemplateStateSaveDate = 302382082;
+			PBXWorkspaceStateSaveDate = 302382082;
+		};
+		sourceControlManager = 7B55B0770E3B594C004C7E9B /* Source Control */;
+		userBuildSettings = {
+		};
+	};
+	29B97316FDCFA39411CA2CEA /* main.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{1, 0}";
+			sepNavVisRange = "{0, 187}";
+			sepNavWindowFrame = "{{61, 96}, {682, 885}}";
+		};
+	};
+	32CA4F630368D1EE00C91783 /* Fnurgletoe_Prefix.pch */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {803, 471}}";
+			sepNavSelRange = "{1, 6}";
+			sepNavVisRange = "{0, 120}";
+			sepNavWindowFrame = "{{584, 79}, {669, 848}}";
+		};
+	};
+	363B45660E33A559003F7899 /* SoundEffect.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 793}}";
+			sepNavSelRange = "{270, 0}";
+			sepNavVisRange = "{0, 2823}";
+			sepNavWindowFrame = "{{38, 120}, {943, 882}}";
+		};
+	};
+	363B45670E33A559003F7899 /* SoundEffect.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 1092}}";
+			sepNavSelRange = "{2508, 0}";
+			sepNavVisRange = "{0, 2820}";
+			sepNavWindowFrame = "{{453, 134}, {682, 885}}";
+		};
+	};
+	36912EE00E33406100AD53CF /* BoardView.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 1105}}";
+			sepNavSelRange = "{1, 0}";
+			sepNavVisRange = "{0, 1687}";
+			sepNavWindowFrame = "{{598, 123}, {549, 891}}";
+		};
+	};
+	36912EE10E33406100AD53CF /* BoardView.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 3718}}";
+			sepNavSelRange = "{463, 0}";
+			sepNavVisRange = "{0, 1313}";
+			sepNavWindowFrame = "{{524, 120}, {678, 894}}";
+		};
+	};
+	36912EE20E33406100AD53CF /* GameModel.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 1352}}";
+			sepNavSelRange = "{2678, 0}";
+			sepNavVisRange = "{993, 1685}";
+			sepNavWindowFrame = "{{493, 106}, {682, 885}}";
+		};
+	};
+	36912EE30E33406100AD53CF /* GameModel.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 6513}}";
+			sepNavSelRange = "{7461, 0}";
+			sepNavVisRange = "{8797, 967}";
+			sepNavWindowFrame = "{{493, 106}, {682, 885}}";
+		};
+	};
+	36AAC9AA0E31E14100FA2C47 /* GameViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {700, 780}}";
+			sepNavSelRange = "{1162, 0}";
+			sepNavVisRange = "{1013, 469}";
+			sepNavWindowFrame = "{{61, 96}, {682, 885}}";
+		};
+	};
+	36AAC9AB0E31E14100FA2C47 /* GameViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {915, 7176}}";
+			sepNavSelRange = "{1511, 0}";
+			sepNavVisRange = "{1448, 425}";
+			sepNavWindowFrame = "{{502, 91}, {682, 885}}";
+		};
+	};
+	36AACA460E31E90400FA2C47 /* Background.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{84, 112}, {669, 848}}";
+		};
+	};
+	7B2DB8C40E48E39300EC5038 /* GameOverViewController.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{594, 0}";
+			sepNavVisRange = "{0, 594}";
+			sepNavWindowFrame = "{{61, 170}, {819, 811}}";
+		};
+	};
+	7B2DB8C50E48E39300EC5038 /* GameOverViewController.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 784}}";
+			sepNavSelRange = "{558, 0}";
+			sepNavVisRange = "{0, 558}";
+		};
+	};
+	7B55B0640E3B593F004C7E9B /* Fnurgletoe */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		dylibVariantSuffix = "";
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = Fnurgletoe;
+		savedGlobals = {
+		};
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+		variableFormatDictionary = {
+		};
+	};
+	7B55B0770E3B594C004C7E9B /* Source Control */ = {
+		isa = PBXSourceControlManager;
+		fallbackIsa = XCSourceControlManager;
+		isSCMEnabled = 0;
+		scmConfiguration = {
+			repositoryName = "";
+			repositoryNamesForRoots = {
+				"" = "";
+			};
+		};
+	};
+	7B55B0780E3B594C004C7E9B /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	7BD7D1700E445DE700C53E61 /* Cross Win.png */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{38, 101}, {729, 901}}";
+		};
+	};
+	7BDB4D7A1205F45E00A941A2 /* CHANGELOG.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 516}}";
+			sepNavSelRange = "{176, 0}";
+			sepNavVisRange = "{0, 176}";
+		};
+	};
+	7BDB4D7B1205F45E00A941A2 /* LICENSE.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 516}}";
+			sepNavSelRange = "{1086, 0}";
+			sepNavVisRange = "{0, 1086}";
+		};
+	};
+	7BDB4D7C1205F45E00A941A2 /* README.txt */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {709, 516}}";
+			sepNavSelRange = "{893, 0}";
+			sepNavVisRange = "{0, 893}";
+		};
+	};
+	8D1107310486CEB800E47090 /* Info.plist */ = {
+		uiCtxt = {
+			sepNavWindowFrame = "{{386, 137}, {943, 882}}";
+		};
+	};
+}
